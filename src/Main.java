@@ -4,7 +4,7 @@ public class Main {
         int contador = 0;
 
 
-        while (contador <10 ){
+        while (contador < 10) {
             System.out.println("contador = " + contador);
             // incremento
             contador = contador + 1;
@@ -12,9 +12,18 @@ public class Main {
         }
 
         //laço para faça
-        for (int x= 0; x < 10; x++){
+        for (int x = 0; x < 10; x++) {
             System.out.println("contador =" + x);
         }
+
+        //laço faça enquanto
+        int cont = 1;
+        do {
+            //processo
+            System.out.println(cont);
+            //incremento
+            cont++;
+    }while(cont <= 10);
 
     }
 }
